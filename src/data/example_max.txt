@@ -1,0 +1,11 @@
+# Exemple de problème (format lisible)
+# 1ère ligne : MAX ou MIN
+# 2ème ligne : coefficients de la fonction objectif (c1 c2 ... cn)
+# lignes suivantes : contraintes, une par ligne :
+#   coef1 coef2 ... coefN  SYMBOL  RHS
+# SYMBOL doit être l'un de : <  >  =
+MAX
+3 2
+2 1 < 18
+2 3 < 42
+3 1 < 24
